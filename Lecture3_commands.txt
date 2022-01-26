@@ -1,0 +1,109 @@
+    1  
+    2  python3 --version
+    3  git --version
+    4  clear
+    5  mkdir ITP270
+    6  cd ITP270
+    7  cd ..
+    8  git clone ^[[200~https://github.com/aliduong88/ITP270-Repo-AliDuong.git~
+    9  git clone https://github.com/aliduong88/ITP270-Repo-AliDuong.git
+   10  ls
+   11  pwd
+   12  clear
+   13  mkdir Movies
+   14  cd  Movies
+   15  ls
+   16  clear
+   17  mkdir action
+   18  mkdir comedy
+   19  mkdir drama
+   20  touch genres.txt
+   21  ls
+   22  clear
+   23  ls
+   24  cd action
+   25  mkdir scifi
+   26  mkdir superhero
+   27  touch batman.txt
+   28  touch matrix-reloaded.txt
+   29  touch matrix-revolutions.txt
+   30  touch matrix.txt
+   31  touch superman.txt
+   32  touch wonderwoman.txt
+   33  cd ..
+   34  cd scifi
+   35  cd action
+   36  cd scifi
+   37  touch terminator.txt
+   38  cd..
+   39  cd ..
+   40  ls
+   41  cd comedy
+   42  mkdir slapstick
+   43  mkdir satire
+   44  touch the-office.txt
+   45  cd
+   46  cd slapstick
+   47  cd movies
+   48  pwd
+   49  cd Movies
+   50  cd slapstick
+   51  ls
+   52  cd comedy
+   53  cd slapstick
+   54  touch waterboy.txt
+   55  touch zoolander.txt
+   56  ls
+   57  cd ..
+   58  cd satire
+   59  touch fightclub.txt
+   60  ls
+   61  cd ..
+   62  cd drama
+   63  mkdir biopic
+   64  mkdir historical
+   65  ls
+   66  cd biopic
+   67  touch cleopatra.txt
+   68  touch frida.txt
+   69  touch lincoln.txt
+   70  touch notorious.txt
+   71  touch ray.txt
+   72  cd ..
+   73  cd historical
+   74  touch gladiator.txt
+   75  touch selma.txt
+   76  ls
+   77  cd ..
+   78  cd..
+   79  cd ..
+   80  tree
+   81  cd Movies
+   82  tree
+   83  clear
+   84  mv Movies movies
+   85  mv movies Movies
+   86  ls
+   87  cd ..
+   88  mv Movies movies
+   89  ls
+   90  clear
+   91  ls
+   92  cp movies ITP270-Repo-AliDuong
+   93  cp -a  movies ITP270-Repo-AliDuong
+   94  cd ITP270-Repo-AliDuong
+   95  ls
+   96  git status
+   97  git commit
+   98  git config --global user.email "vqd21@email.vccs.edu"
+   99  git config --global user.name "Ali Duong"
+  100  git status
+  101  git commit
+  102  git config --global color.ui auto
+  103  git status
+  104  git add movies/
+  105  git status
+  106  git commit -m "add movies folder to ITP270-Repo-AliDuong"
+  107  git status
+  108  git push
+  109  history > ITP270-Repo-AliDuong/Lecture3_commands.txt
