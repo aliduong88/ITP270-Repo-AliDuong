@@ -1,0 +1,40 @@
+    1  
+    2  pwd
+    3  git clone https://github.com/aliduong88/ITP270-Shahpar.git
+    4  clear
+    5  ls
+    6  cd ITP270_Shahpar
+    7  cd ITP270-Shahpar
+    8  ls
+    9  cd geography
+   10  ls
+   11  echo "Hello" > hello.txt
+   12  ls
+   13  cat hello.txt
+   14  cat continents.txt
+   15  cat oceans.txt > continents.txt
+   16  cat continents.txt
+   17  cat glaciers.txt >> rivers.txt
+   18  cat rivers.txt
+   19  cat volcanoes.txt | wc | cat > volcanoes_count.txt
+   20  cat volcanoes.txt
+   21  cat volcanoes_count.txt
+   22  cat continents.txt
+   23  cat lakes.txt
+   24  sort lakes.txt
+   25  cat forests.txt
+   26  sort forests.txt
+   27  sort forests.txt > sorted-forests.txt
+   28  cat sorted-forests.txt
+   29  cat lakes.txt | sort > sorted.lakes.txt
+   30  cat sorted-lakes.txt
+   31  cat sorted.lakes.txt
+   32  cat deserts.txt
+   33  uniq deserts.txt
+   34  sort deserts.txt | uniq > uniq-deserts.txt
+   35  cd ..
+   36  pwd
+   37  ls
+   38  cd ITP270-Repo_AliDuong
+   39  cd ITP270-Repo-AliDuong
+   40  ls
