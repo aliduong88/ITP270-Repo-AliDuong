@@ -1,0 +1,40 @@
+1. pwd
+2. nano hello.txt
+3. ctrl + O
+   enter
+   ctrl + X
+   clear
+4. nano ~/.bash_profile
+5. echo "Hello"
+   ctrl + O
+   enter
+   ctrl + X
+   clear
+6. source ~/.bash_profile
+7. nano ~/.bash_profile
+   alias p="pwd"
+   alias ll="ls -la"
+8. source ~/.bash_profile
+9. p
+   ll
+10.nano ~/.bash_profile
+   USER="AliDuong"
+   export USER
+   ctrl + O
+   enter
+   ctrl + X
+   clear
+11.source ~/.bash_profile
+12.echo $USER
+13.nano ~/.bash_profile
+   export PS1=">> "
+   ctrl + O
+   enter
+   ctrl + X
+   clear
+14.source ~/.bash_profile
+15.p
+   ll
+16.echo $HOME
+17.echo $PATH
+18.env
